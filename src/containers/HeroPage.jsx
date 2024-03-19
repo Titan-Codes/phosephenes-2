@@ -25,7 +25,7 @@ const HeroPage = () => {
   };
 
   return (
-    <section className="w-screen relative h-full bg-[#D5FF40] flex items-center justify-center flex-col" id="home">
+    <section className="w-screen relative h-full bg-red-500 flex items-center justify-center flex-col" id="home">
      <Header/>
      <div className="flex items-center justify-center py-8 md:px-2 lg:px-4 sm:px-4 w-full h-full ">
            <div className='flex items-center justify-center px-2 sm:px-4 md:px-2 lg:px-4 flex-col max-w-[95%] h-full py-4'>
@@ -46,7 +46,7 @@ const HeroPage = () => {
             </div>
             <div className="flex items-center justify-center flex-row gap-4 w-full py-2 s:p-4 my-2 md:my-6">
              <Link to="https://forms.gle/V73pXU1xmP2JdNibA" className="flex items-center justify-center bg-black group hover:bg-transparent transition duration-200 ease-in-out hover:border hover:border-black rounded-full md:max-w-[20%] lg::max-w-[15%] p-2 flex-1">
-                <button type="submit" className=" text-[#D5FF40] group-hover:text-black rounded-full text-xs font-black ">Register Now</button>
+                <button type="submit" className=" text-red-500 group-hover:text-black rounded-full text-xs font-black ">Register Now</button>
               </Link>
           <a href={pdf} download="rulebook" className="focus:none outline:none flex items-center justify-center bg-transparent rounded-full transition duration-200 ease-in-out flex-1 md:max-w-[20%] lg:max-w-[15%] p-2 border border-black">
                 <button type="submit" className=" text-black  rounded-full text-xs font-black">Rule Book</button>

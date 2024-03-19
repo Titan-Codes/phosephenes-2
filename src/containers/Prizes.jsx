@@ -25,13 +25,13 @@ const Prizes = () => {
             <div className="w-full h-full flex items-start justify-start lg:w-[65%] flex-col p-6">
               <div className="flex items-center justify-start">
                 <h1 className="text-[2rem]  xs:text-[2.7rem] s:text-6xl sm:text-[4rem] md:text-[5rem] lg:text-8xl xl:text-9xl 2xl:text-[154px] font-black sm:leading-tight text-[#ffffff]">
-                  PRIZES <span className="text-[#d5FF40]">.</span>
+                  PRIZES <span className="text-red-500">.</span>
                 </h1>
               </div>
               <div className="xs:flex items-center justify-center flex-row w-full md:w-[75%] lg:w-full  my-6">
                 <p className="font-normal text-xs text-white sm:text-sm lg:text-lg ">
-                  Prize pool of 2.2lacs which will include: • Prize money 1lac •
-                  Goodies worth 1.2lac Each participant will get premium goodies
+                  Prize pool of 10lacs which will include: • Prize money xxlac •
+                  Goodies worth xxxlac Each participant will get premium goodies
                   and merch. Venue - Galileo block, Date - 23/24 March 2023.
                   
                 </p>
@@ -42,7 +42,7 @@ const Prizes = () => {
                     Prize Pool
                   </h1>
                   <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#ffffff] font-black">
-                    2.2Lakh
+                    10Lakh
                   </h1>
                 </div>
                 <div className="flex items-center justify-between w-full flex-row border-white px-1 py-6">
@@ -50,7 +50,7 @@ const Prizes = () => {
                     Prize Money
                   </h1>
                   <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#ffffff] font-black">
-                    1Lakh
+                    xxLakh
                   </h1>
                 </div>
                 <div className="flex items-center justify-between w-full flex-row border-t-2 border-white border-b-2 px-1 py-6">
@@ -58,7 +58,7 @@ const Prizes = () => {
                     Goodies
                   </h1>
                   <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#ffffff] font-black">
-                    1.2Lakh
+                    xxxLakh
                   </h1>
                 </div>
               </div>
@@ -85,12 +85,12 @@ const Prizes = () => {
             <div className="flex items-center justify-center bg-[#292929] p-4 md:p-6 sm:py-12 w-full h-full relative">
               <div className="flex items-center justify-center flex-row my-4 w-full s:max-w-7xl s:w-[85%] md:w-[90%]">
                 <p className="items-center justify-center inline-block text-center gap-4 text-2xl xs:text-3xl sm:text-4xl p-1 sm:p-2 md:text-5xl lg:text-6xl xl:text-7xl text-[#ffffff] font-black w-full">
-                  A CREATIVE <span className="text-[#d5FF40]">MIND</span> KNOWS
+                  A CREATIVE <span className="text-red-500">MIND</span> KNOWS
                   HOW TO DO THE RIGHT{" "}
-                  <span className="text-[#d5FF40]">THING</span> AT THE{" "}
-                  <span className="text-[#d5FF40]">RIGHT </span>
+                  <span className="text-red-500">THING</span> AT THE{" "}
+                  <span className="text-red-500">RIGHT </span>
                   PLACE AND AT THE RIGHT{" "}
-                  <span className="text-[#d5FF40]">TIME .</span>
+                  <span className="text-red-500">TIME .</span>
                 </p>
                 <img
                   src={vector}
@@ -138,27 +138,27 @@ const Prizes = () => {
       <div className="items-center xl:hidden flex justify-center flex-row w-full h-full gap-12">
       <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
         
-      <div className="flex items-center  justify-center bg-[#d5ff40] rounded-md p-2 md:p-4"> <img src={ccsc} alt="ccsc" className="md:h-24 h-14 xs:h-16 s:h-20 w-auto"/> </div>
+      <div className="flex items-center  justify-center bg-red-500 rounded-md p-2 md:p-4"> <img src={ccsc} alt="ccsc" className="md:h-24 h-14 xs:h-16 s:h-20 w-auto"/> </div>
       </SwiperSlide>
       <SwiperSlide className="s:p-4 xs:p-7 p-4 xl:hidden flex items-center justify-center flex-row">
               
-      <div className="flex items-center  justify-center bg-[#d5ff40] rounded-md p-2 md:p-4"> <img src={cbs} alt="ccsc" className="md:h-24 h-14 xs:h-16 s:h-20 w-auto"/> </div>
+      <div className="flex items-center  justify-center bg-red-500 rounded-md p-2 md:p-4"> <img src={cbs} alt="ccsc" className="md:h-24 h-14 xs:h-16 s:h-20 w-auto"/> </div>
      
       </SwiperSlide>
       <SwiperSlide className="s:p-4 xs:p-7 p-4 xl:hidden flex items-center justify-center flex-row">
               
-      <div className="flex items-center  justify-center bg-[#d5ff40] rounded-md p-2 md:p-4"> <img src={vardiano} alt="ccsc" className="md:h-24 h-14 xs:h-16 s:h-20 w-auto"/> </div>
+      <div className="flex items-center  justify-center bg-red-500 rounded-md p-2 md:p-4"> <img src={vardiano} alt="ccsc" className="md:h-24 h-14 xs:h-16 s:h-20 w-auto"/> </div>
      
       </SwiperSlide>
       <SwiperSlide className="s:p-4 xs:p-7 p-4 xl:hidden flex items-center justify-center flex-row">
         
-      <div className="flex items-center  justify-center bg-[#d5ff40] rounded-md p-2 md:p-4"> <img src={selle} alt="ccsc" className="md:h-24 h-14 xs:h-16 s:h-20 w-auto"/> </div>
+      <div className="flex items-center  justify-center bg-red-500 rounded-md p-2 md:p-4"> <img src={selle} alt="ccsc" className="md:h-24 h-14 xs:h-16 s:h-20 w-auto"/> </div>
       
       </SwiperSlide>
       <SwiperSlide className="s:p-4 xs:p-7 p-4 xl:hidden flex items-center justify-center flex-row">
         
        
-      <div className="flex items-center  justify-center bg-[#d5ff40] rounded-md p-2 md:p-4"> <img src={gmc} alt="ccsc" className="md:h-24 h-14 xs:h-16 s:h-20 w-auto"/> </div>
+      <div className="flex items-center  justify-center bg-red-500 rounded-md p-2 md:p-4"> <img src={gmc} alt="ccsc" className="md:h-24 h-14 xs:h-16 s:h-20 w-auto"/> </div>
       
       </SwiperSlide>
       </div>
@@ -170,16 +170,16 @@ const Prizes = () => {
                          
                    </div>
       <div className="h-screen hidden md:flex items-center justify-center absolute top-0 bottom-0 left-0 right-0  w-full ">
-                           <div className="flex w-full h-full items-center  justify-center py-0 sm:py-2 md:py-4 lg:py-6"><marquee className="py-10 xs:py-12 rotate-[45deg] w-full h-full"><h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#d5ff40] font-black">DESIGN YOUR IDEAS <img className='w-8 h-8' src={star2} alt="star2"/> BUILD YOUR IDEAS</h1></marquee></div>
+                           <div className="flex w-full h-full items-center  justify-center py-0 sm:py-2 md:py-4 lg:py-6"><marquee className="py-10 xs:py-12 rotate-[45deg] w-full h-full"><h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-red-500 font-black">DESIGN YOUR IDEAS <img className='w-8 h-8' src={star2} alt="star2"/> BUILD YOUR IDEAS</h1></marquee></div>
                    </div>
       <div className="h-screen hidden md:flex items-center justify-center w-full absolute top-0 bottom-0 left-0 right-0 ">
-                           <div className="flex w-full h-full items-center  justify-center py-0 sm:py-2 md:py-4 lg:py-6"><marquee className="py-10 xs:py-12 rotate-[-45deg] w-full h-full"><h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#d5ff40] font-black">DESIGN YOUR IDEAS <img className='w-8 h-8' src={star2} alt="star2"/> BUILD YOUR IDEAS</h1></marquee></div>
+                           <div className="flex w-full h-full items-center  justify-center py-0 sm:py-2 md:py-4 lg:py-6"><marquee className="py-10 xs:py-12 rotate-[-45deg] w-full h-full"><h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-red-500 font-black">DESIGN YOUR IDEAS <img className='w-8 h-8' src={star2} alt="star2"/> BUILD YOUR IDEAS</h1></marquee></div>
                    </div>
       <div className="h-screen hidden md:flex items-center justify-center w-full absolute top-0 bottom-0 left-0 right-0 ">
-                           <div className="flex w-full h-full items-center  justify-center py-0 sm:py-2 md:py-4 lg:py-6"><marquee className="py-10 xs:py-12 rotate-[-135deg] w-full h-full"><h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#d5ff40] font-black">DESIGN YOUR IDEAS <img className='w-8 h-8' src={star2} alt="star2"/> BUILD YOUR IDEAS</h1></marquee></div>
+                           <div className="flex w-full h-full items-center  justify-center py-0 sm:py-2 md:py-4 lg:py-6"><marquee className="py-10 xs:py-12 rotate-[-135deg] w-full h-full"><h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-red-500 font-black">DESIGN YOUR IDEAS <img className='w-8 h-8' src={star2} alt="star2"/> BUILD YOUR IDEAS</h1></marquee></div>
                    </div>
       <div className="h-screen hidden md:flex items-center justify-center w-full absolute top-0 bottom-0 left-0 right-0 ">
-                           <div className="flex w-full h-full items-center  justify-center py-0 sm:py-2 md:py-4 lg:py-6"><marquee className="py-10 xs:py-12 rotate-[135deg] w-full h-full"><h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#d5ff40] font-black">DESIGN YOUR IDEAS <img className='w-8 h-8' src={star2} alt="star2"/> BUILD YOUR IDEAS</h1></marquee></div>
+                           <div className="flex w-full h-full items-center  justify-center py-0 sm:py-2 md:py-4 lg:py-6"><marquee className="py-10 xs:py-12 rotate-[135deg] w-full h-full"><h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-red-500 font-black">DESIGN YOUR IDEAS <img className='w-8 h-8' src={star2} alt="star2"/> BUILD YOUR IDEAS</h1></marquee></div>
                    </div>
       
       </section>
