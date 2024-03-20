@@ -39,6 +39,7 @@ module.exports = {
 		},
 		backgroundImage:{
 			'video': "url('assets/video.gif')",
+			'gradient-hero': "linear-gradient(12deg,rgba(80,17,85,1)0%,rgba(134,23,93,0.28999999165534973)7.878462225198746%,rgba(42,11,59,0.44999998807907104)40.75323939323425%,rgba(16,5,33,1)69.86356973648071%)"
 		}
 	},
 	plugins: [

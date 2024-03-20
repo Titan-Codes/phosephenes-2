@@ -1,12 +1,16 @@
 import React from "react";
-import prize from "../assets/poster.jpeg";
+import prize from "../assets/comingsoon.jpeg";
 import vector from "../assets/Vector.svg";
 import star2 from '../assets/star2.svg'
+import wolf from '../assets/wolfram-logo.png'
+import koffee from '../assets/koffeehouz.png'
+import us from '../assets/unsaid.png'
 import cbs from '../assets/cbs.png';
 import gmc from '../assets/gmc.png';
 import selle from '../assets/selle.png';
 import vardiano from '../assets/vardiano.png';
-import ccsc from '../assets/favicon.png';
+import ccsc from '../assets/ques.svg';
+import title from '../assets/title reveal.png'
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, {
   EffectFade,
@@ -25,15 +29,15 @@ const Prizes = () => {
             <div className="w-full h-full flex items-start justify-start lg:w-[65%] flex-col p-6">
               <div className="flex items-center justify-start">
                 <h1 className="text-[2rem]  xs:text-[2.7rem] s:text-6xl sm:text-[4rem] md:text-[5rem] lg:text-8xl xl:text-9xl 2xl:text-[154px] font-black sm:leading-tight text-[#ffffff]">
-                  PRIZES <span className="text-red-500">.</span>
+                  PRIZES <span className="text-purple-800">.</span>
                 </h1>
               </div>
               <div className="xs:flex items-center justify-center flex-row w-full md:w-[75%] lg:w-full  my-6">
                 <p className="font-normal text-xs text-white sm:text-sm lg:text-lg ">
-                  Prize pool of 10lacs which will include: • Prize money xxlac •
+                  Prize pool of xxxLakhs which will include: • Prize money xxlac •
                   Goodies worth xxxlac Each participant will get premium goodies
-                  and merch. Venue - Galileo block, Date - 23/24 March 2023.
-                  
+                  and merch. Venue - xxxxxxxxx, Date - xx/xx April, 2024.
+
                 </p>
               </div>
               <div className="flex items-center justify-start w-full flex-col max-w-4xl lg:w-full">
@@ -42,7 +46,7 @@ const Prizes = () => {
                     Prize Pool
                   </h1>
                   <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#ffffff] font-black">
-                    10Lakh
+                    xxLakhs
                   </h1>
                 </div>
                 <div className="flex items-center justify-between w-full flex-row border-white px-1 py-6">
@@ -50,7 +54,7 @@ const Prizes = () => {
                     Prize Money
                   </h1>
                   <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#ffffff] font-black">
-                    xxLakh
+                    xxLakhs
                   </h1>
                 </div>
                 <div className="flex items-center justify-between w-full flex-row border-t-2 border-white border-b-2 px-1 py-6">
@@ -58,14 +62,14 @@ const Prizes = () => {
                     Goodies
                   </h1>
                   <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#ffffff] font-black">
-                    xxxLakh
+                    xxxLakhs
                   </h1>
                 </div>
               </div>
             </div>
             <div className="lg:flex hidden items-center justify-start w-[35%] flex-col p-4">
               <div className="flex items-center justify-center p-2 rounded-tl-[3.5rem] ">
-                <img src={prize} alt="prize" className="h-80 w-80 rounded-tl-[3.5rem] shadow-[-10px_-10px_0px_0px_rgba(239,68,68)]" />
+                <img src={prize} alt="prize" className="h-80 w-80 rounded-tl-[3.5rem] shadow-[-10px_-10px_0px_0px_rgba(107,33,168)]" />
               </div>
               <div className="flex items-center justify-center flex-row w-full sm:p-2 my-6">
                 <p className="font-normal text-xs text-white sm:text-sm lg:text-lg ">
@@ -85,12 +89,12 @@ const Prizes = () => {
             <div className="flex items-center justify-center bg-[#292929] p-4 md:p-6 sm:py-12 w-full h-full relative">
               <div className="flex items-center justify-center flex-row my-4 w-full s:max-w-7xl s:w-[85%] md:w-[90%]">
                 <p className="items-center justify-center inline-block text-center gap-4 text-2xl xs:text-3xl sm:text-4xl p-1 sm:p-2 md:text-5xl lg:text-6xl xl:text-7xl text-[#ffffff] font-black w-full">
-                  A CREATIVE <span className="text-red-500">MIND</span> KNOWS
+                  A CREATIVE <span className="text-purple-800">MIND</span> KNOWS
                   HOW TO DO THE RIGHT{" "}
-                  <span className="text-red-500">THING</span> AT THE{" "}
-                  <span className="text-red-500">RIGHT </span>
+                  <span className="text-purple-800">THING</span> AT THE{" "}
+                  <span className="text-purple-800">RIGHT </span>
                   PLACE AND AT THE RIGHT{" "}
-                  <span className="text-red-500">TIME .</span>
+                  <span className="text-purple-800">TIME .</span>
                 </p>
                 <img
                   src={vector}
@@ -108,80 +112,259 @@ const Prizes = () => {
         </div>
       </section>
       <section className="w-screen h-full md:overflow-hidden relative bg-black">
-      <div className="md:h-screen h-full flex items-center justify-center w-full z-[10] p-2">
-                           
-                           <Swiper
-      modules={[Navigation, Pagination, EffectFade, Autoplay]}
-      navigation={false}
-      slidesPerView={5}
-      spaceBetween={50}
-      autoplay={{ delay: 4500 }}
-      breakpoints={{
-        300:{
-          slidesPerView: 2,
-          spaceBetween: 10,
-        },
-        520: {
-          slidesPerView: 3,
-          spaceBetween: 20,
-        },
-        768: {
-          slidesPerView: 3,
-          spaceBetween: 30,
-        },
-        1024: {
-          slidesPerView: 4,
-          spaceBetween: 40,
-        },
-      }}
-    >
-      <div className="items-center xl:hidden flex justify-center flex-row w-full h-full gap-12">
-      <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
-        
-      <div className="flex items-center  justify-center bg-red-500 rounded-md p-2 md:p-4"> <img src={ccsc} alt="ccsc" className="md:h-24 h-14 xs:h-16 s:h-20 w-auto"/> </div>
-      </SwiperSlide>
-      <SwiperSlide className="s:p-4 xs:p-7 p-4 xl:hidden flex items-center justify-center flex-row">
-              
-      <div className="flex items-center  justify-center bg-red-500 rounded-md p-2 md:p-4"> <img src={cbs} alt="ccsc" className="md:h-24 h-14 xs:h-16 s:h-20 w-auto"/> </div>
-     
-      </SwiperSlide>
-      <SwiperSlide className="s:p-4 xs:p-7 p-4 xl:hidden flex items-center justify-center flex-row">
-              
-      <div className="flex items-center  justify-center bg-red-500 rounded-md p-2 md:p-4"> <img src={vardiano} alt="ccsc" className="md:h-24 h-14 xs:h-16 s:h-20 w-auto"/> </div>
-     
-      </SwiperSlide>
-      <SwiperSlide className="s:p-4 xs:p-7 p-4 xl:hidden flex items-center justify-center flex-row">
-        
-      <div className="flex items-center  justify-center bg-red-500 rounded-md p-2 md:p-4"> <img src={selle} alt="ccsc" className="md:h-24 h-14 xs:h-16 s:h-20 w-auto"/> </div>
-      
-      </SwiperSlide>
-      <SwiperSlide className="s:p-4 xs:p-7 p-4 xl:hidden flex items-center justify-center flex-row">
-        
-       
-      <div className="flex items-center  justify-center bg-red-500 rounded-md p-2 md:p-4"> <img src={gmc} alt="ccsc" className="md:h-24 h-14 xs:h-16 s:h-20 w-auto"/> </div>
-      
-      </SwiperSlide>
-      </div>
-      </Swiper>
-                           
-                            
-                            
-                            
-                         
-                   </div>
-      <div className="h-screen hidden md:flex items-center justify-center absolute top-0 bottom-0 left-0 right-0  w-full ">
-                           <div className="flex w-full h-full items-center  justify-center py-0 sm:py-2 md:py-4 lg:py-6"><marquee className="py-10 xs:py-12 rotate-[45deg] w-full h-full"><h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-red-500 font-black">DESIGN YOUR IDEAS <img className='w-8 h-8' src={star2} alt="star2"/> BUILD YOUR IDEAS</h1></marquee></div>
-                   </div>
-      <div className="h-screen hidden md:flex items-center justify-center w-full absolute top-0 bottom-0 left-0 right-0 ">
-                           <div className="flex w-full h-full items-center  justify-center py-0 sm:py-2 md:py-4 lg:py-6"><marquee className="py-10 xs:py-12 rotate-[-45deg] w-full h-full"><h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-red-500 font-black">DESIGN YOUR IDEAS <img className='w-8 h-8' src={star2} alt="star2"/> BUILD YOUR IDEAS</h1></marquee></div>
-                   </div>
-      <div className="h-screen hidden md:flex items-center justify-center w-full absolute top-0 bottom-0 left-0 right-0 ">
-                           <div className="flex w-full h-full items-center  justify-center py-0 sm:py-2 md:py-4 lg:py-6"><marquee className="py-10 xs:py-12 rotate-[-135deg] w-full h-full"><h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-red-500 font-black">DESIGN YOUR IDEAS <img className='w-8 h-8' src={star2} alt="star2"/> BUILD YOUR IDEAS</h1></marquee></div>
-                   </div>
-      <div className="h-screen hidden md:flex items-center justify-center w-full absolute top-0 bottom-0 left-0 right-0 ">
-                           <div className="flex w-full h-full items-center  justify-center py-0 sm:py-2 md:py-4 lg:py-6"><marquee className="py-10 xs:py-12 rotate-[135deg] w-full h-full"><h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-red-500 font-black">DESIGN YOUR IDEAS <img className='w-8 h-8' src={star2} alt="star2"/> BUILD YOUR IDEAS</h1></marquee></div>
-                   </div>
-      
+        <div className=" h-full flex flex-col items-center justify-center w-full z-[10] p-2">
+          <div className="text-white z-10">
+            <div className=" xl:text-7xl lg:text-6xl md:text-4xl font-bold uppercase z-[10]">
+              <p>Title Sponsor</p>
+            </div>
+          </div> 
+          <div className=" flex items-center justify-center w-full z-[10] p-2">
+            <Swiper
+              modules={[Navigation, Pagination, EffectFade, Autoplay]}
+              navigation={false}
+              slidesPerView={1}
+              spaceBetween={50}
+              autoplay={{ delay: 2000 }}
+            >
+              <div className="items-center xl:hidden flex justify-center flex-row w-full h-full gap-12">
+                <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
+
+                  <div className="flex items-center mx-auto md:w-96 w-auto  justify-center bg-white rounded-md p-2 md:p-4"> <img src={title} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                </SwiperSlide>
+              </div>
+            </Swiper>
+          </div>
+          <div className="text-white z-10">
+            <div className=" xl:text-7xl lg:text-6xl md:text-4xl font-bold uppercase z-[10]">
+              <p>Platinum Sponsor</p>
+            </div>
+          </div>
+          <div className=" flex items-center justify-center w-full z-[10] p-2">
+            <Swiper
+              modules={[Navigation, Pagination, EffectFade, Autoplay]}
+              navigation={false}
+              slidesPerView={2}
+              spaceBetween={50}
+              autoplay={{ delay: 2000 }}
+              breakpoints={{
+                300: {
+                  slidesPerView: 1,
+                  spaceBetween: 10,
+                },
+                520: {
+                  slidesPerView: 2,
+                  spaceBetween: 20,
+                },
+              }}
+            >
+              <div className="items-center xl:hidden flex justify-center flex-row w-full h-full gap-12">
+                <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
+
+                  <div className="flex items-center mx-auto md:w-96 w-auto  justify-center bg-white rounded-md p-2 md:p-4"> <img src={wolf} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                </SwiperSlide>
+                <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
+
+                  <div className="flex items-center mx-auto md:w-96 w-auto  justify-center bg-white rounded-md p-2 md:p-4"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                </SwiperSlide>
+              </div>
+            </Swiper>
+          </div>
+          <div className="text-white z-10">
+            <div className=" xl:text-7xl lg:text-6xl md:text-4xl  font-bold uppercase z-[10]">
+              <p>Gold Sponsor</p>
+            </div>
+          </div>
+          <div className=" flex items-center justify-center w-full z-[10] p-2">
+            <Swiper
+              modules={[Navigation, Pagination, EffectFade, Autoplay]}
+              navigation={false}
+              slidesPerView={3}
+              spaceBetween={50}
+              autoplay={{ delay: 2000 }}
+              breakpoints={{
+                300: {
+                  slidesPerView: 1,
+                  spaceBetween: 10,
+                },
+                520: {
+                  slidesPerView: 2,
+                  spaceBetween: 20,
+                },
+                768: {
+                  slidesPerView: 2,
+                  spaceBetween: 30,
+                },
+                1024: {
+                  slidesPerView: 3,
+                  spaceBetween: 40,
+                },
+              }}
+            >
+              <div className="items-center xl:hidden flex justify-center flex-row w-full h-full gap-12">
+                <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
+
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96  justify-center bg-white rounded-md p-2 md:p-4"> <img src={gmc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                </SwiperSlide>
+                <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
+
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96  justify-center bg-white rounded-md p-2 md:p-4"> <img src={us} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                </SwiperSlide>
+                <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
+
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96  justify-center bg-white rounded-md p-2 md:p-4"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                </SwiperSlide>
+                <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
+
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96  justify-center bg-white rounded-md p-2 md:p-4"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                </SwiperSlide>
+              </div>
+            </Swiper>
+          </div>
+          <div className="text-white z-10">
+            <div className=" xl:text-7xl lg:text-6xl md:text-4xl font-bold uppercase z-[10]">
+              <p>Silver Sponsor</p>
+            </div>
+          </div>
+          <div className=" flex items-center justify-center w-full z-[10] p-2">
+            <Swiper
+              modules={[Navigation, Pagination, EffectFade, Autoplay]}
+              navigation={false}
+              slidesPerView={3}
+              spaceBetween={50}
+              autoplay={{ delay: 2000 }}
+              breakpoints={{
+                300: {
+                  slidesPerView: 1,
+                  spaceBetween: 10,
+                },
+                520: {
+                  slidesPerView: 2,
+                  spaceBetween: 20,
+                },
+                768: {
+                  slidesPerView: 2,
+                  spaceBetween: 30,
+                },
+                1024: {
+                  slidesPerView: 3,
+                  spaceBetween: 40,
+                },
+              }}
+            >
+              <div className="items-center xl:hidden flex justify-center flex-row w-full h-full gap-12">
+                <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
+
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96  justify-center bg-white rounded-md p-2 md:p-4"> <img src={koffee} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                </SwiperSlide>
+                <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
+
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2 md:p-4"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                </SwiperSlide>
+                <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
+
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2 md:p-4"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                </SwiperSlide>
+                <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
+
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96  justify-center bg-white rounded-md p-2 md:p-4"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                </SwiperSlide>
+                <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
+
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2 md:p-4"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                </SwiperSlide>
+                <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
+
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2 md:p-4"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                </SwiperSlide>
+              </div>
+            </Swiper>
+          </div>
+          <div className="text-white z-10">
+            <div className=" xl:text-7xl lg:text-6xl md:text-4xl  font-bold uppercase z-[10]">
+              <p>Bronze Sponsor</p>
+            </div>
+          </div>
+          <div className=" flex items-center justify-center w-full z-[10] p-2">
+            <Swiper
+              modules={[Navigation, Pagination, EffectFade, Autoplay]}
+              navigation={false}
+              slidesPerView={3}
+              spaceBetween={50}
+              autoplay={{ delay: 2000 }}
+              breakpoints={{
+                300: {
+                  slidesPerView: 1,
+                  spaceBetween: 10,
+                },
+                520: {
+                  slidesPerView: 2,
+                  spaceBetween: 20,
+                },
+                768: {
+                  slidesPerView: 2,
+                  spaceBetween: 30,
+                },
+                1024: {
+                  slidesPerView: 3,
+                  spaceBetween: 40,
+                },
+              }}
+            >
+              <div className="items-center xl:hidden flex justify-center flex-row w-full h-full gap-12">
+                <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
+
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2 md:p-4"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                </SwiperSlide>
+                <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
+
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2 md:p-4"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                </SwiperSlide>
+                <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
+
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2 md:p-4"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                </SwiperSlide>
+                <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
+
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2 md:p-4"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                </SwiperSlide>
+                <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
+
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2 md:p-4"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                </SwiperSlide>
+                <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
+
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2 md:p-4"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                </SwiperSlide>
+                <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
+
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2 md:p-4"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                </SwiperSlide>
+                <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
+
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2 md:p-4"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                </SwiperSlide>
+              </div>
+            </Swiper>
+          </div>
+
+
+
+
+
+        </div>
+        <div className="h-screen hidden md:flex items-center justify-center absolute top-0 bottom-0 left-0 right-0  w-full ">
+          <div className="flex w-full h-full items-center  justify-center py-0 sm:py-2 md:py-4 lg:py-6"><marquee className="py-10 xs:py-12 rotate-[45deg] w-full h-full"><h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#F07900]/20 font-black">DESIGN YOUR IDEAS <img className='w-8 h-8' src={star2} alt="star2" /> BUILD YOUR IDEAS</h1></marquee></div>
+        </div>
+        <div className="h-screen hidden md:flex items-center justify-center w-full absolute top-0 bottom-0 left-0 right-0 ">
+          <div className="flex w-full h-full items-center  justify-center py-0 sm:py-2 md:py-4 lg:py-6"><marquee className="py-10 xs:py-12 rotate-[-45deg] w-full h-full"><h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#F07900]/20 font-black">DESIGN YOUR IDEAS <img className='w-8 h-8' src={star2} alt="star2" /> BUILD YOUR IDEAS</h1></marquee></div>
+        </div>
+        <div className="h-screen hidden md:flex items-center justify-center w-full absolute top-0 bottom-0 left-0 right-0 ">
+          <div className="flex w-full h-full items-center  justify-center py-0 sm:py-2 md:py-4 lg:py-6"><marquee className="py-10 xs:py-12 rotate-[-135deg] w-full h-full"><h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#F07900]/20 font-black">DESIGN YOUR IDEAS <img className='w-8 h-8' src={star2} alt="star2" /> BUILD YOUR IDEAS</h1></marquee></div>
+        </div>
+        <div className="h-screen hidden md:flex items-center justify-center w-full absolute top-0 bottom-0 left-0 right-0 ">
+          <div className="flex w-full h-full items-center  justify-center py-0 sm:py-2 md:py-4 lg:py-6"><marquee className="py-10 xs:py-12 rotate-[135deg] w-full h-full"><h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#F07900]/20 font-black">DESIGN YOUR IDEAS <img className='w-8 h-8' src={star2} alt="star2" /> BUILD YOUR IDEAS</h1></marquee></div>
+        </div>
+
       </section>
     </>
   );
