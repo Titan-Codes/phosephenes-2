@@ -18,7 +18,7 @@ const Socials = () => {
            <div className='flex items-center justify-center flex-1 py-4 md:p-4 flex-col gap-4 w-full h-full'>
            <div className='w-full h-full flex items-center  justify-center flex-col gap-4'>
                  <div className='flex items-center justify-center'>
-                 <h1 className='text-[2.25rem]  xs:text-[2.7rem] sm:text-5xl lg:text-6xl font-black sm:leading-tight text-[#ffffff] whitespace-nowrap'>FOLLOW US</h1>
+                 <h1 className='text-[2.25rem]  xs:text-[2.7rem] sm:text-5xl lg:text-6xl font-black sm:leading-tight text-purple-800 whitespace-nowrap'>FOLLOW US</h1>
                  </div>
                  <div className='flex items-center justify-center'>
                  <h1 className='text-[2rem]  lg:text-[2.7rem] font-black sm:leading-tight text-[#ffffff] whitespace-nowrap'>INSTAGRAM</h1>
@@ -28,7 +28,7 @@ const Socials = () => {
                  </div>
                  <div className='flex items-center justify-center'>
                  <Link to="https://instagram.com/codechef_cuiet?igshid=YmMyMTA2M2Y=" className='flex items-center justify-center'>
-                 <h1 className='text-[1.5rem]  lg:text-[2.7rem] font-black sm:leading-tight text-[#ffffff] whitespace-nowrap'>@codingninjas_cuiet</h1>
+                 <h1 className='text-[1.5rem]  lg:text-[2.7rem] font-black sm:leading-tight text-purple-800 whitespace-nowrap'>@codingninjas_cuiet</h1>
                  </Link>
                  </div>
            </div>
