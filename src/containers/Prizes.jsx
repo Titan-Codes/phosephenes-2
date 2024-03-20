@@ -34,35 +34,35 @@ const Prizes = () => {
               </div>
               <div className="xs:flex items-center justify-center flex-row w-full md:w-[75%] lg:w-full  my-6">
                 <p className="font-normal text-xs text-white sm:text-sm lg:text-lg ">
-                  Prize pool of xxxLakhs which will include: • Prize money xxlac •
-                  Goodies worth xxxlac Each participant will get premium goodies
-                  and merch. Venue - xxxxxxxxx, Date - xx/xx April, 2024.
+                  Prize pool of XX Lakhs which will include: • Prize money XX Lakh •
+                  Goodies worth XX Lakh Each participant will get premium goodies
+                  and merch. Venue - <span className="text-purple-800">Revealing Soon!</span> , Date - XX April, 2024.
 
                 </p>
               </div>
               <div className="flex items-center justify-start w-full flex-col max-w-4xl lg:w-full">
                 <div className="flex items-center justify-between w-full flex-row border-t-2 border-white border-b-2 px-1 py-6">
-                  <h1 className="flex text-purple-800 items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl  font-black">
+                  <h1 className="flex text-purple-800 items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl  font-black">
                     Prize Pool
                   </h1>
-                  <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#ffffff] font-black">
-                    xxLakhs
+                  <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl text-[#ffffff] font-black">
+                  XX LAKHS
                   </h1>
                 </div>
                 <div className="flex items-center justify-between w-full flex-row border-white px-1 py-6">
-                  <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#ffffff] font-black">
+                  <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl  text-[#ffffff] font-black">
                     Prize Money
                   </h1>
-                  <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#ffffff] font-black">
-                    xxLakhs
+                  <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl  text-[#ffffff] font-black">
+                  XX LAKHS
                   </h1>
                 </div>
                 <div className="flex items-center justify-between w-full flex-row border-t-2 border-white border-b-2 px-1 py-6">
-                  <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-purple-800 font-black">
+                  <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl  text-purple-800 font-black">
                     Goodies
                   </h1>
-                  <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#ffffff] font-black">
-                    xxxLakhs
+                  <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl  text-[#ffffff] font-black">
+                    XX LAKHS
                   </h1>
                 </div>
               </div>
@@ -73,7 +73,7 @@ const Prizes = () => {
               </div>
               <div className="flex items-center justify-center flex-row w-full sm:p-2 my-6">
                 <p className="font-normal text-xs text-white sm:text-sm lg:text-lg ">
-                  It will be a 36 hr event. Team of 5 will be made having two 3
+                  It will be a 36 hr event. Team of 5 will be made having 3
                   Chitkara Business School students and 2 CSE students. Teams
                   will be formed by organising team and will be assigned one
                   nation, and will manage each nation.
@@ -111,10 +111,10 @@ const Prizes = () => {
           </div>
         </div>
       </section>
-      <section className="w-screen h-full md:overflow-hidden relative bg-black">
-        <div className=" h-full flex flex-col items-center justify-center w-full z-[10] p-2">
+      <section className="w-screen h-full py-16 md:overflow-hidden relative bg-black">
+        <div className=" h-full flex flex-col items-center gap-4 justify-center w-full z-[10] p-2">
           <div className="text-white z-10">
-            <div className=" xl:text-7xl lg:text-6xl text-purple-800 md:text-4xl font-bold uppercase z-[10]">
+            <div className="lg:text-6xl text-purple-800 md:text-4xl font-bold uppercase z-[10]">
               <p>Title Sponsor</p>
             </div>
           </div> 
@@ -129,13 +129,13 @@ const Prizes = () => {
               <div className="items-center xl:hidden flex justify-center flex-row w-full h-full gap-12">
                 <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
-                  <div className="flex items-center mx-auto md:w-96 w-auto  justify-center bg-white rounded-md p-2 md:p-4"> <img src={title} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                  <div className="flex items-center mx-auto md:w-96 w-auto  justify-center bg-white rounded-md p-2"> <img src={title} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
                 </SwiperSlide>
               </div>
             </Swiper>
           </div>
           <div className="text-white z-10">
-            <div className=" xl:text-7xl text-purple-800 lg:text-6xl md:text-4xl font-bold uppercase z-[10]">
+            <div className="text-purple-800 lg:text-6xl md:text-4xl font-bold uppercase z-[10]">
               <p>Platinum Sponsor</p>
             </div>
           </div>
@@ -160,17 +160,17 @@ const Prizes = () => {
               <div className="items-center xl:hidden flex justify-center flex-row w-full h-full gap-12">
                 <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
-                  <div className="flex items-center mx-auto md:w-96 w-auto  justify-center bg-white rounded-md p-2 md:p-4"> <img src={wolf} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                  <div className="flex items-center mx-auto md:w-96 w-auto  justify-center bg-white rounded-md p-2"> <img src={wolf} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
                 </SwiperSlide>
                 <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
-                  <div className="flex items-center mx-auto md:w-96 w-auto  justify-center bg-white rounded-md p-2 md:p-4"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                  <div className="flex items-center mx-auto md:w-96 w-auto  justify-center bg-white rounded-md p-2"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
                 </SwiperSlide>
               </div>
             </Swiper>
           </div>
           <div className="text-white z-10">
-            <div className=" xl:text-7xl text-purple-800 lg:text-6xl md:text-4xl  font-bold uppercase z-[10]">
+            <div className=" text-purple-800 lg:text-6xl md:text-4xl  font-bold uppercase z-[10]">
               <p>Gold Sponsor</p>
             </div>
           </div>
@@ -203,25 +203,25 @@ const Prizes = () => {
               <div className="items-center xl:hidden flex justify-center flex-row w-full h-full gap-12">
                 <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
-                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96  justify-center bg-white rounded-md p-2 md:p-4"> <img src={gmc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96  justify-center bg-white rounded-md p-2"> <img src={gmc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
                 </SwiperSlide>
                 <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
-                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96  justify-center bg-white rounded-md p-2 md:p-4"> <img src={us} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96  justify-center bg-white rounded-md p-2"> <img src={us} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
                 </SwiperSlide>
                 <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
-                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96  justify-center bg-white rounded-md p-2 md:p-4"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96  justify-center bg-white rounded-md p-2"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
                 </SwiperSlide>
                 <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
-                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96  justify-center bg-white rounded-md p-2 md:p-4"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96  justify-center bg-white rounded-md p-2"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
                 </SwiperSlide>
               </div>
             </Swiper>
           </div>
           <div className="text-white z-10">
-            <div className=" xl:text-7xl text-purple-800 lg:text-6xl md:text-4xl font-bold uppercase z-[10]">
+            <div className="text-purple-800 lg:text-6xl md:text-4xl font-bold uppercase z-[10]">
               <p>Silver Sponsor</p>
             </div>
           </div>
@@ -254,33 +254,33 @@ const Prizes = () => {
               <div className="items-center xl:hidden flex justify-center flex-row w-full h-full gap-12">
                 <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
-                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96  justify-center bg-white rounded-md p-2 md:p-4"> <img src={koffee} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96  justify-center bg-white rounded-md p-2"> <img src={koffee} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
                 </SwiperSlide>
                 <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
-                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2 md:p-4"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
                 </SwiperSlide>
                 <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
-                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2 md:p-4"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
                 </SwiperSlide>
                 <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
-                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96  justify-center bg-white rounded-md p-2 md:p-4"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96  justify-center bg-white rounded-md p-2"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
                 </SwiperSlide>
                 <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
-                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2 md:p-4"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
                 </SwiperSlide>
                 <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
-                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2 md:p-4"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
                 </SwiperSlide>
               </div>
             </Swiper>
           </div>
           <div className="text-white z-10">
-            <div className=" xl:text-7xl text-purple-800 lg:text-6xl md:text-4xl  font-bold uppercase z-[10]">
+            <div className=" text-purple-800 lg:text-6xl md:text-4xl  font-bold uppercase z-[10]">
               <p>Bronze Sponsor</p>
             </div>
           </div>
@@ -313,35 +313,35 @@ const Prizes = () => {
               <div className="items-center xl:hidden flex justify-center flex-row w-full h-full gap-12">
                 <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
-                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2 md:p-4"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
                 </SwiperSlide>
                 <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
-                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2 md:p-4"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
                 </SwiperSlide>
                 <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
-                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2 md:p-4"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
                 </SwiperSlide>
                 <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
-                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2 md:p-4"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
                 </SwiperSlide>
                 <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
-                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2 md:p-4"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
                 </SwiperSlide>
                 <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
-                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2 md:p-4"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
                 </SwiperSlide>
                 <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
-                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2 md:p-4"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
                 </SwiperSlide>
                 <SwiperSlide className="s:p-4 xs:p-7 p-4  items-center justify-center flex-row">
 
-                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2 md:p-4"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
+                  <div className="flex items-center mx-auto max-[700px]:w-auto w-96   justify-center bg-white rounded-md p-2"> <img src={ccsc} alt="ccsc" className="md:h-32 h-14 xs:h-16 s:h-20 w-auto" /> </div>
                 </SwiperSlide>
               </div>
             </Swiper>
