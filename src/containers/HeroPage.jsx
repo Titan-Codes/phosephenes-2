@@ -39,7 +39,7 @@ const HeroPage = () => {
           <div className='w-full h-full flex items-center justify-end sm:p-0 s:p-1 md:p-1'>
             <div className='flex items-center justify-center flex-col md:flex-row w-full p-1  gap-6 sm:p-2 my-6'>
 
-              <p className='font-normal text-[0.7rem] xs:text-xs sm:text-sm lg:text-lg md:w-[50%]'>Phosphenes Is The Codechef Student Chapter's Annual Flagship Event, With A Huge Prize Pool And Biggest Fun Opportunity For The Students To Collaborate And Participate At Interdepartment Level. The Focus Of The Event Is On Capital Trading, Resource Management And One On One Coding Battles. The Event Is Jam-Packed With Entertaining Activities, Engaging Sessions And Engaging Games.</p>
+              <p className='font-normal text-[0.7rem] xs:text-xs sm:text-sm lg:text-lg md:w-[50%]'>Phosphenes Is The Coding Ninjas Student Chapter's Annual Flagship Event, With A Huge Prize Pool And Biggest Fun Opportunity For The Students To Collaborate And Participate At Interdepartment Level. The Focus Of The Event Is On Capital Trading, Resource Management And One On One Coding Battles. The Event Is Jam-Packed With Entertaining Activities, Engaging Sessions And Engaging Games.</p>
               <div className='flex items-center justify-center flex-col flex-1 gap-2 w-full h-full xs:p-2 xl:p-0'><div className=' rounded-full p-4 h-12 xs:h-14 s:h-16 md:h-20 lg:h-24 flex items-center justify-start bg-video bg-cover bg-center bg-no-repeat w-full'><img src={play} loading="lazy" alt="play" className='w-auto h-8 xs:h-10  sm:h-12 md:h-14 lg:h-16' /></div>
               </div>
             </div>
