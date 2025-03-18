@@ -41,7 +41,7 @@ const Prizes = () => {
                 <p className="font-normal text-xs text-white sm:text-sm lg:text-lg ">
                   Prize pool of XX Lakhs which will include: • Prize money XX Lakh •
                   Goodies worth XX Lakh Each participant will get premium goodies
-                  and merch. Venue - <span className="text-purple-800">Revealing Soon!</span> , Date - XX April, 2024.
+                  and merch. Venue - <span className="text-purple-800">Revealing Soon!</span> , Date - XX April, 2025.
 
                 </p>
               </div>
